@@ -1,0 +1,55 @@
+= Teebeutel
+
+The _Teebeutel_ (eng. Teabag) is a 10x7cm ESP-32 (https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf[ESP-32-WROOM-32]) Dev-Kit / Con-Badge. You'll find a bunch of sensors, a OLED display, 12 RGB-LEDs, an IR-Transceiver, a microSD-Card slot, a D-Pad, capacitive touch buttons and battery charging electronics on the _Teebeutel_:
+
+== Sensors
+
+=== SpO~2~ (I²C: 0x5B)
+An SpO~2~ sensor measures the oxygen-concentration (in %) in your blood as well as the pulse. This is all done non-invasive, just by laying your finger on the sensor. This is the most common sensor you find in hospitals and emergency services will utilize these sensors.
+
+> A typical pulse oximeter uses an electronic processor and a pair of small light-emitting diodes (LEDs) facing a photodiode through a translucent part of the patient's body, usually a fingertip or an earlobe. One LED is red, with wavelength of 660 nm, and the other is infrared with a wavelength of 940 nm. Absorption of light at these wavelengths differs significantly between blood loaded with oxygen and blood lacking oxygen. Oxygenated hemoglobin absorbs more infrared light and allows more red light to pass through. Deoxygenated hemoglobin allows more infrared light to pass through and absorbs more red light. The LEDs sequence through their cycle of one on, then the other, then both off about thirty times per second which allows the photodiode to respond to the red and infrared light separately and also adjust for the ambient light baseline.
+
+https://en.wikipedia.org/wiki/Pulse_oximetry#Mechanism[Wikipedia - Pulse oximetry]
+
+**This is not a medical device!**
+
+https://datasheet.lcsc.com/lcsc/1912111437_Partron-PPSI262_C328758.pdf[Datasheet]
+
+=== Air-quality, CO~2~, Ethanol (I²C: 0x58)
+With this sensor can measure gasses in the air. With these measurements an air-quality score is calculated.
+
+https://datasheet.lcsc.com/lcsc/2004151334_Sensirion-SGP30-2.5k_C514454.pdf[Datasheet]
+
+=== Accelerometer (I²C: 0x32)
+This is probably one of the most common sensors as pretty much every smartphone has one. This sensors measures acceptilational forces (therefore gravity too). This way you can measure how the Teebeutel is oriented in space.  
+
+https://www.st.com/resource/en/datasheet/lis2DE12.pdf[Datasheet]
+
+=== Hall sensor
+The hall sensor is iterated into the ESP32. It utilises the electromagnetic https://en.wikipedia.org/wiki/Hall_effect[hall effect] to measure the strength of magnetic fields nearby.
+
+=== Touch-buttons
+
+=== D-Pad
+
+https://datasheet.lcsc.com/lcsc/1809211419_Korean-Hroparts-Elec-K1-1506SN-01_C145910.pdf[Datasheet]
+
+== Display
+
+https://www.waveshare.com/w/upload/4/43/UG-2828GDEDF11.pdf[Datasheet]
+
+== Data-transmission
+
+=== Wifi
+
+=== Bluetooth
+
+=== IR Transceiver
+
+https://datasheet.lcsc.com/lcsc/1808280419_Everlight-Elec-IRM-V840C-TR1_C264267.pdf[Datasheet]
+
+=== SD-Card
+
+=== Programming-Interface and Power
+
+You can charge and connect a serial-terminal for firmware upload and debugging via the RJ-45 connector. This connector is **not** a network connection! You can use the following diagram to create your own cable, or use the one that was provided with your kit.
