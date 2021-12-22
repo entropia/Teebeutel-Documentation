@@ -1,4 +1,4 @@
 name: intro
 title: Teebeutel
-version: main
-
+version: v0.1-pre
+prerelease: true
