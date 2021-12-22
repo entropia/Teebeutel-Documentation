@@ -1,0 +1,23 @@
+site:
+  title: Teebeutel Documentation
+  url: https://teebeutel.entropia.de
+  start_page: intro::index.adoc
+
+content:
+  sources:
+  - url: ../Teebeutel-Hardware
+    branches: 
+      - HEAD
+    start_path: docs
+  - url: ../Teebeutel-Expansion
+    branches:
+      - HEAD
+    start_path: docs
+  - url: ../Teebeutel-Documentation
+    branches:
+      - HEAD
+    start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true

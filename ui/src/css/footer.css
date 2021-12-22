@@ -1,0 +1,65 @@
+footer.footer {
+  background-color: var(--footer-background);
+  color: var(--footer-font-color);
+  font-size: calc(15 / var(--rem-base) * 1rem);
+  line-height: var(--footer-line-height);
+  padding: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  footer.footer {
+    display: flex;
+  }
+  
+  .footer .images {
+    justify-content: end !important;
+  }
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+.footer a {
+  color: var(--footer-link-font-color);
+}
+
+.footer .text {
+  flex: 50%;
+  padding: 5px;
+}
+
+.footer .images {
+  display: flex; 
+  flex: 0 50%;
+  padding: 5px;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.logo {
+  flex: 25%;
+  flex-grow: 0;
+  height: 100%;
+  min-height: 100px;
+}
+
+.logo.entropia{	
+  background: url("../img/Entropia-Teebeutel.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
+.logo.oshw{	
+  background: url("../img/oshw-logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+
+.footer .images .spacer{
+       flex-grow: 1;
+}
