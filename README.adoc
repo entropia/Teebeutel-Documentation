@@ -1,0 +1,25 @@
+= Teebeutel Documentation
+
+This repository contains the https://antora.org[Antora] documentation and UI based on https://gitlab.com/antora/antora-ui-default[Antora Default UI].
+
+== Build the documentation
+
+When making local changes use `antora-playbook-local.yml`:
+
+ $ antora antora-playbook-local.yml --fetch
+
+To build from GitHub use `antora-playbook.yml`
+
+ $ antora antora-playbook.yml --fetch
+
+== Build the UI
+
+To preview changes to the UI use:
+
+ $ gulp preview
+
+You have to pack the UI for use with Antora!
+
+ $ gulp bundle:pack
+
+For more information refer to the xref:ui/README.adoc[UI documentation]
