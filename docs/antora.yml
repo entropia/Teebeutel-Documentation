@@ -1,4 +1,8 @@
 name: intro
-title: Teebeutel
-version: v0.1-pre
+title: Introduction
+version: main
 prerelease: true
+nav:
+    - modules/ROOT/nav.adoc
+    - modules/in-the-box/nav.adoc
+    - modules/usage/nav.adoc

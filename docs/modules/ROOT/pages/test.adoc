@@ -1,0 +1,97 @@
+= UI - Test
+
+== Macros
+:experimental:
+
+=== Buttons
+Press kbd:[esc] to exit insert mode.
+
+Use the shortcut kbd:[Ctrl+T] to open a new tab in your browser.
+
+kbd:[Ctrl+Shift+N] will open a new incognito window.
+
+=== Keyboard
+Press kbd:[esc] to exit insert mode.
+
+Use the shortcut kbd:[Ctrl+T] to open a new tab in your browser.
+
+kbd:[Ctrl+Shift+N] will open a new incognito window.
+
+=== Menu
+To save the file, select menu:File[Save].
+
+Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
+
+== Lists
+=== Ordered list
+. Step 1
+. Step 2
+.. Details
+... Mini-details
+.... Micro-details
+..... We're really down in the weeds now.
+.. More details
+. Step 3
+
+=== Unordered list
+* Item A
+* Item B
+** Item B1
+*** Details
+**** More details
+***** Details about the details
+** Item B2
+* Item C
+
+=== Complex list
+* A list item can contain two or more paragraphs or blocks of content.
++
+[source,yaml]
+----
+  artifacts:
+    expire_in: 1 week
+----
++
+====
+An example block
+====
+
+** A literal paragraph doesn't require a list continuation.
+
+ $ antora antora-playbook.yml
+
+* You can also mix list item types in the same list.
+** Unordered list item
+... Ordered list item
+.... Another ordered list item
++
+term:: A description list term and content.
++
+
+=== Description list
+
+Keyboard::
+Used to enter text or control items on the screen.
+Mouse:: Used to point to and select items on your computer screen.
+
+=== Checklist
+* [*] checked
+* [x] also checked
+* [ ] not checked
+
+==== Interactive checklist
+[%interactive]
+* [ ] Binge watch Death in Paradise
+* [ ] Visit a tropical island
+
+== Admonitions
+
+CAUTION: Don't stick forks in electric sockets.
+
+TIP: After someone sticks a fork in a socket, you'll need to reset the circuit in the dark basement.
+
+WARNING: Never go into the basement.
+
+IMPORTANT: A monster lives in the basement.
+
+NOTE: If you go into the basement, see if you can find Kenny's parka.

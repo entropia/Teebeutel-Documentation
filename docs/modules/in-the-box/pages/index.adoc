@@ -1,0 +1,11 @@
+= What's in the box
+
+== Teebeutel
+
+== Lanyard
+
+== USB-Cabel
+
+== USB-Adapter (optional)
+
+== Stripboard Expansion (optional)
