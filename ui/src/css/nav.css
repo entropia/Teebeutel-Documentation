@@ -248,6 +248,12 @@ html.is-clipped--nav {
   display: inherit;
 }
 
+.version.is-latest a{
+  background-color: var(--nav-version-latest);
+  color: var(--color-white) !important;
+  border-color: var(--color-gray-50) !important;
+}
+
 .nav-panel-explore .component .is-current a {
   border-color: currentColor;
   opacity: 0.9;

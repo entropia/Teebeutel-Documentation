@@ -389,7 +389,30 @@
 
 .doc .admonitionblock .icon i::after {
   content: attr(title);
+  font-family: var(--body-font-family);
+  padding-left: 5px;
 }
+
+.doc .admonitionblock td.icon .icon-note::before{
+  content:"\f05a";
+}
+
+.doc .admonitionblock td.icon .icon-tip::before{
+  content:"\f0eb";
+}
+
+.doc .admonitionblock td.icon .icon-warning::before{
+  content:"\f071";
+}
+
+.doc .admonitionblock td.icon .icon-caution::before{
+  content:"\f06d";
+}
+
+.doc .admonitionblock td.icon .icon-important::before{
+  content:"\f06a";
+}
+
 
 .doc .imageblock {
   display: flex;
@@ -972,3 +995,4 @@
   text-align: right;
   width: 1.5em;
 }
+

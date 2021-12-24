@@ -25,6 +25,7 @@ site:
       url: /xyz/6.0/index.html
       version: '6.0'
       displayVersion: '6.0'
+      latest: true
     - &component_version
       title: *component_title
       url: '#'
