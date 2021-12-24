@@ -5,11 +5,11 @@ site:
 
 content:
   sources:
-  #- url: https://github.com/entropia/Teebeutel-Hardware
-    #branches: 
-    #  - main
-    #  - v*
-    #start_path: docs
+  - url: https://github.com/entropia/Teebeutel-Hardware
+    branches: 
+      - main
+      - v*
+    start_path: docs
   - url: https://github.com/entropia/Teebeutel-Expansion
     branches:
       - main 
@@ -17,10 +17,9 @@ content:
     start_path: docs
   - url: https://github.com/entropia/Teebeutel-Documentation
     branches:
-      - main 
       - v*
     start_path: docs
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/entropia/Teebeutel-Documentation/releases/download/v0.1-pre/ui-bundle.zip
     snapshot: true
