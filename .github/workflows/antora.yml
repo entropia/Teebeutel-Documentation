@@ -21,3 +21,11 @@ jobs:
         with:
           name: docs-build
           path: build/site/
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: docs-build
+      # TODO: rsync to webserver
