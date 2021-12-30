@@ -21,6 +21,3 @@ ui:
   bundle:
     url: ui/build/ui-bundle.zip
     snapshot: true
-asciidoc:
-    attributes:
-        icons: font
