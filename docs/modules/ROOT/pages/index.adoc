@@ -2,8 +2,8 @@
 
 = Teebeutel
 
-The __Teebeutel__ (eng. Teabag) is a 10x7cm ESP-32 (https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf[ESP-32-WROOM-32,role=external,window=_blank]) Dev-Kit / Con-Badge.
-You'll find a bunch of sensors, a OLED display, 12 RGB-LEDs, an IR-Transceiver, a microSD-Card slot, a D-Pad, capacitive touch buttons and battery charging electronics on the __Teebeutel__:
+__Teebeutel__ (eng. Teabag) is an electronic, https://entropia.de[Entropia] themed con-badge for the GPN20, featuring an https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf[ESP32,role=external,window=_blank] microprocessor running micropython. You can tinker with its various sensors, build your own custom expansions, render beautiful animations on the 128x128px oled or simply enjoy it as the colourful badge it is. Plenty vivid LEDs will give you room to stand out within the crowd. Keep on reading to find out what else this badge has to offer, how to use it and get answers to your questions.
+
 
 image::Teebeutel-on-pcbs.jpg[]
 
