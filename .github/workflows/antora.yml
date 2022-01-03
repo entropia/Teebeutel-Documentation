@@ -23,9 +23,19 @@ jobs:
           path: build/site/
 
   deploy:
+    needs: [build]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/download-artifact@v2
         with:
           name: docs-build
-      # TODO: rsync to webserver
+          path: build
+      - name: Import SSH-Key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSHKEY }}" >> ~/.ssh/id_dsa
+          chmod 600 ~/.ssh/id_dsa
+          echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+      - name: Deploy
+        run: |
+          rsync -raz --delete --no-motd --no-o --no-g build/ deploy@teebeutel.entropia.de:/var/www/teebeutel.entropia.de/html/
