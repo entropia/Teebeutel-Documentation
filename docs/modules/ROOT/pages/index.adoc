@@ -5,7 +5,13 @@
 __Teebeutel__ (eng. Teabag) is an electronic, https://entropia.de[Entropia] themed con-badge for the GPN20, featuring an https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf[ESP32,role=external,window=_blank] microprocessor running micropython. You can tinker with its various sensors, build your own custom expansions, render beautiful animations on the 128x128px oled or simply enjoy it as the colourful badge it is. Plenty vivid LEDs will give you room to stand out within the crowd. Keep on reading to find out what else this badge has to offer, how to use it and get answers to your questions.
 
 
-image::Teebeutel-on-pcbs.jpg[]
+image::Teebeutel-on-pcbs.jpg[Some Tebeutel PCBs]
+
+== Sponsors
+=== PCBway
+This Project wouldn't be possible without commercial sponsorships. Thanks to https://pcbway.com[PCBway] for the 50% discount on PCB manufacturing and assembly!
+
+image::pcbway.png[PCBway Logo, 200]
 
 == Sensors
 

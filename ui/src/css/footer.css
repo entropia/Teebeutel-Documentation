@@ -11,9 +11,9 @@ footer.footer {
     display: flex;
   }
   
-  .footer .images {
+  /*.footer .images {
     justify-content: end !important;
-  }
+  }*/
 }
 
 .footer p {
@@ -29,9 +29,20 @@ footer.footer {
   padding: 5px;
 }
 
+.footer .sponsors {
+  flex: 25%;
+  padding: 5px;
+}
+
+.footer.sponsors p{
+  color: var(--nav-heading-font-color);
+  font-weight: var(--body-font-weight-bold);
+  text-align: center;
+}
+
 .footer .images {
   display: flex; 
-  flex: 0 50%;
+  flex: 0 25%;
   padding: 5px;
   flex-direction: row-reverse;
   justify-content: center;
@@ -59,6 +70,12 @@ footer.footer {
   background-position: center;
 }
 
+.logo.pcbway{	
+  background: url("../img/pcbway.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 
 .footer .images .spacer{
        flex-grow: 1;
