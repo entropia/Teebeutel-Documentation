@@ -10,7 +10,7 @@ footer.footer {
   footer.footer {
     display: flex;
   }
-  
+
   /*.footer .images {
     justify-content: end !important;
   }*/
@@ -29,19 +29,19 @@ footer.footer {
   padding: 5px;
 }
 
-.footer .sponsors {
+.footer .mixed {
   flex: 25%;
   padding: 5px;
 }
 
-.footer.sponsors p{
+.footer.mixed p{
   color: var(--nav-heading-font-color);
   font-weight: var(--body-font-weight-bold);
   text-align: center;
 }
 
 .footer .images {
-  display: flex; 
+  display: flex;
   flex: 0 25%;
   padding: 5px;
   flex-direction: row-reverse;
@@ -49,13 +49,13 @@ footer.footer {
 }
 
 .logo {
-  flex: 25%;
+  flex: 33%;
   flex-grow: 0;
   height: 100%;
-  min-height: 100px;
+  min-height: 80px;
 }
 
-.logo.entropia{	
+.logo.entropia{
   background: url("../img/Entropia-Teebeutel.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -63,14 +63,14 @@ footer.footer {
 }
 
 
-.logo.oshw{	
+.logo.oshw{
   background: url("../img/oshw-logo.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
-.logo.pcbway{	
+.logo.pcbway{
   background: url("../img/pcbway.png");
   background-repeat: no-repeat;
   background-size: contain;
