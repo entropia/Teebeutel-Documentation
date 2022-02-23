@@ -11,10 +11,28 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run Antora
-        uses: kameshsampath/antora-site-action@v0.2.4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
         with:
-          antora_playbook: antora-playbook.yml
+            node-version: 16
+
+      - name: Install ui dependencies
+        run: npm install
+        working-directory: ui
+
+      - name: Build ui
+        run: npx gulp build
+        working-directory: ui
+
+      - name: Pack ui
+        run: npx gulp bundle:pack
+        working-directory: ui
+
+      - name: Install antora
+        run: npm install @antora/cli @antora/site-generator
+
+      - name: Build docs
+        run: npx antora antora-playbook.yml --fetch
       
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.3.1

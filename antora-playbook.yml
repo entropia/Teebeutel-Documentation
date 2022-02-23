@@ -21,5 +21,5 @@ content:
     start_path: docs
 ui:
   bundle:
-    url: https://github.com/entropia/Teebeutel-Documentation/releases/download/v0.1/ui-bundle.zip
+    url: ui/build/ui-bundle.zip
     snapshot: true
