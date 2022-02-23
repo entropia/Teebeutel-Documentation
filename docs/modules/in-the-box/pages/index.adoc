@@ -1,14 +1,31 @@
 = What's in the box
 
+When you pick up your Teebeutel-Kit you'll receive:
+
 == Teebeutel
+One Teebeutel, with firmware pre-installed. There may be a firmware update available, you'll find upgrade instructions in the firmware section of this documentation.
 
 == USB-Adapter
 IMPORTANT: You'll need a short networking cable to connect the Teebeutel to the USB adapter!
 
+The USB-Adapter has an on-pcb USB-A connector, as of now, you need to glue the Spacer onto the PCB to get the correct thickness to plug it in.
+
 === 3D-Printed USB-Spacer
+
+A small 3D printed spacer for the USB-A connector. Detailed instructions will follow.
 
 === USB-C receptacle (optional)
 
+If you opted-in for the USB-C upgrade you'll find a USB-C receptacle in the box. To install it, you have to cut the USB-A plug off (with a Dremel for example) and solder the new receptacle on. Detailed installations will be provided. And we're sure that you'll find someone to help you at the GPN or your local hackerspace.
+
 == Lanyard
 
+This lanyard is a bit special, as it has an RJ45 plug on its end. You can secure the Teebeutel with the plug and wear it around your neck.
+
+image::lanyard.jpg[A black lanyard with an RJ45 connector]
+
 == Stripboard Expansion (optional)
+
+The stripboard expansion is the perfect start to your own hardware upgrades for the Teebeutel! You can simply add custom hardware, other sensors and components to the Teebeutels back. You can even stack multiple (compatible) expansions for the ultimate Tee-Stack.
+
+xref:expansion:ROOT:index.adoc[More info]

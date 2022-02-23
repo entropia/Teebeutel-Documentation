@@ -2,11 +2,11 @@
 
 == English
 
-Hey! Once again we have developed an electronic badge for the upcoming GPN for you to play with! And as the the GPN20 is getting closer, we would like to expand our team!
+Hey! Once again we have developed an electronic badge for the upcoming GPN for you to play with! And as the GPN20 is getting closer, we would like to expand our team!
 
 If you want to get your hands on a badge before everybody else and get involved, especially with firmware development, this is your chance!
 
-In detail we're searching for hackers, who are experienced in working with micropython and C on the ESP32. As well as people helping with beta-testing, documentation and graphic design (print and digital).
+In detail, we're searching for hackers, who are experienced in working with micropython and C on the ESP32. As well as people helping with beta-testing, documentation and graphic design (print and digital).
 
 If you want to join us on this journey, no matter your skillset please reach out!
 
@@ -16,7 +16,7 @@ Hey! Wir haben dieses Jahr wieder eine elektronische GPN Badge für die kommende
 
 Wenn du vor allen Anderen eine Badge in den Händen halten möchtest und uns, vor allen bei der Firmware-Entwicklung, unterstützen möchtest ist jetzt der richtige Zeitpunkt!
 
-Im Detail surchen wir HackerInnen mit Erfahung mit micropython und C auf dem ESP32. Außerdem suchen wir helfende Hände fürs Beta-Testen und Graphik-Design (Print und Digital).
+Im Detail suchen wir HackerInnen mit Erfahrung mit micropython und C auf dem ESP32. Außerdem suchen wir helfende Hände fürs Beta-Testen und Grafik-Design (Print und Digital).
 
 Wenn du uns bei diesem Projekt helfen möchtest, egal welche Skills du mitbringst, wende dich an uns!
 
