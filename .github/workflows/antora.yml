@@ -29,7 +29,7 @@ jobs:
         working-directory: ui
 
       - name: Install antora
-        run: npm install @antora/cli @antora/site-generator
+        run: npm install
 
       - name: Build docs
         run: npx antora antora-playbook.yml --fetch
