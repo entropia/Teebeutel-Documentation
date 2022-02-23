@@ -1,7 +1,11 @@
 name: Build and Deploy docs
 on:
-  repository_dispatch:
-    types: [update_docs]
+  push:
+    paths:
+      - 'docs/**'
+      - 'ui/docs/**'
+    branches:
+      - main
   
   workflow_dispatch:
 
