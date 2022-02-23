@@ -2,10 +2,13 @@
 
 == Teebeutel
 
+== USB-Adapter
+IMPORTANT: You'll need a short networking cable to connect the Teebeutel to the USB adapter!
+
+=== 3D-Printed USB-Spacer
+
+=== USB-C receptacle (optional)
+
 == Lanyard
-
-== USB-Cabel
-
-== USB-Adapter (optional)
 
 == Stripboard Expansion (optional)

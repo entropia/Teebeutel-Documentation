@@ -4,14 +4,38 @@
 
 __Teebeutel__ (eng. Teabag) is an electronic, https://entropia.de[Entropia] themed con-badge for the GPN20, featuring an https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf[ESP32,role=external,window=_blank] microprocessor running micropython. You can tinker with its various sensors, build your own custom expansions, render beautiful animations on the 128x128px oled or simply enjoy it as the colourful badge it is. Plenty vivid LEDs will give you room to stand out within the crowd. Keep on reading to find out what else this badge has to offer, how to use it and get answers to your questions.
 
+NOTE: We are currently searching for hackers! You want to get your hands on a Teebeutel before anyone else and help us with software, beta-testing and design? Now is your chance: xref:help-us.adoc[Continue reading]
+
+
 
 image::Teebeutel-on-pcbs.jpg[Some Tebeutel PCBs]
 
 == Sponsors
+This Project wouldn't be possible without commercial sponsorships.
+
 === PCBway
-This Project wouldn't be possible without commercial sponsorships. Thanks to https://pcbway.com[PCBway] for the 50% discount on PCB manufacturing and assembly!
+Thanks to https://pcbway.com[PCBway] for the 50% discount on PCB manufacturing and assembly!
 
 image::pcbway.png[PCBway Logo, 200]
+
+== OSHWA Certification
+Every part of this project is opensource and OSHWA certified!
+
+You can...
+
+* ... freely contribute to this project!
+* ... build your own Teebeutel!
+* ... customise and expand Soft- and Hardware easily!
+* ... build new Hard- and Software based on this project!
+
+To make upgrades and add-ons of the Teebeutel as easy as possible you can use the expansion-port on the back!
+
+NOTE: OSHWA-IDs: https://certification.oshwa.org/de000119.html[DE000119] https://certification.oshwa.org/de000117.html[DE000117]
+
+== LEDs
+You have 12 side-facing RGB LEDs (ws2812b-4020) at your fingertips that can produce awesome light effects! They'll perfectly fit with the (nightly) glow of the GPN!
+
+image::glow.png[A PCB with 12 RGB leds around its edge glowing in rainbow colors in front of a white background.]
 
 == Sensors
 
