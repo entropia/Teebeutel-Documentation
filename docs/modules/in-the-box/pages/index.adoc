@@ -38,4 +38,7 @@ image::lanyard.jpg[A black lanyard with an RJ45 connector]
 
 The stripboard expansion is the perfect start to your own hardware upgrades for the Teebeutel! You can simply add custom hardware, other sensors and components to the Teebeutels back. You can even stack multiple (compatible) expansions for the ultimate Tee-Stack.
 
+image::expansion:ROOT:render.png[A KiCad render of the stripbaord expansion,500]
+
+
 xref:expansion:ROOT:index.adoc[More info]
