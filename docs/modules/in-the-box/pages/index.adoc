@@ -5,6 +5,16 @@ When you pick up your Teebeutel-Kit you'll receive:
 == Teebeutel
 One Teebeutel, with firmware pre-installed. There may be a firmware update available, you'll find upgrade instructions in the firmware section of this documentation.
 
+=== LiPo Battery
+
+The included 2000mAh 3.7V battery supplies power to your Teebeutel. You can  attach the Battery with velcro tape. If you want to extend the battery life feel free to connect a bigger battery, but keep this in mind:
+
+* Battery connector: PH 2.0mm 2pin
+* Voltage: 3.7
+* Max. charging current: 500mA
+
+WARNING: Batteries may get damaged or combust when they are shorted or polarity is reversed! The Teebeutel uses a self-resetting fuse to protect the battery, it'll trip at >750mA.
+
 == USB-Adapter
 IMPORTANT: You'll need a short networking cable to connect the Teebeutel to the USB adapter!
 
