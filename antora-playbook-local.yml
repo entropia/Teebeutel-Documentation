@@ -21,3 +21,10 @@ ui:
   bundle:
     url: ui/build/ui-bundle.zip
     snapshot: true
+
+asciidoc:
+  attributes:
+    description: 'Teebeutel (eng. Teabag) is an electronic, Entropia themed con-badge for the GPN20, featuring an ESP32 microprocessor running micropython.'
+    keywords: 'Teebeutel, Entropia, GPN20'
+    page-og-image: '/_/img/preview.jpg'
+    page-og-type: website
