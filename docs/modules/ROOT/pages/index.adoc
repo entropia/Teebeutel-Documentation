@@ -1,7 +1,15 @@
 :note-caption: Info
-
 = Teebeutel
 
+== Bad News!
+
+=== English
+Unfortunately we have bad news for the Teebeutel badge: We cannot offer the badge as planned this year. The costs for electronic components, production and transport have risen again in the past weeks and made the price so high that we had to decide against a production for this year. However, we will continue to develop the badge and offer it at a later point.
+
+=== Deutsch
+Beim Teebeutel-Badge haben wir leider schlechte Nachrichten: Das Badge können wir leider nicht wie geplant dieses Jahr anbieten. Die in den letzten Wochen nochmals  gestiegenen Kosten für elektronische Bauteile, Fertigung und Transport haben den Preis so hoch steigen lassen, dass wir uns für dieses Jahr leider gegen eine Fertigung entscheiden mussten. Wir werden das Badge jedoch weiterentwickeln und zu einem anderen Zeitpunkt anbieten.
+
+== About
 __Teebeutel__ (eng. Teabag) is an electronic, https://entropia.de[Entropia] themed con-badge for the GPN20, featuring an https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf[ESP32,role=external,window=_blank] microprocessor running micropython. You can tinker with its various sensors, build your own custom xref:expansion:ROOT:index.adoc[expansions], render beautiful animations on the 128x128px oled or simply enjoy it as the colourful badge it is. Plenty vivid LEDs will give you room to stand out within the crowd. Keep on reading to find out what else this badge has to offer, how to use it and get answers to your questions.
 
 NOTE: We are currently searching for hackers! You want to get your hands on a Teebeutel before anyone else and help us with software, beta-testing and design? Now is your chance: xref:help-us.adoc[Continue reading]
